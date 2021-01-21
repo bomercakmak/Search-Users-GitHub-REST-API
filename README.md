@@ -7,7 +7,6 @@ Project used github api to search github users and their personal profile detail
 
 ## Gihthub API
 
-- [Root Endpoint](https://api.github.com)
 - [Get User](https://api.github.com/users/bomercakmak)
 - [Repos](https://api.github.com/users/bomercakmak/repos?per_page=100)
 - [Followers](https://api.github.com/users/bomercakmak/followers)
