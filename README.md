@@ -3,4 +3,4 @@ Project used github api to search github users and their personal profile detail
 
 # Sample Test Video
 
-<a href=""><img src="./images/Search-Users-GitHub-REST-API-gif.gif" title="Search-Users-GitHub-REST-API-gif"></a>
+<a href="https://github.com/bomercakmak/Search-Users-GitHub-REST-API/blob/master/images/Search-Users-GitHub-REST-API-gif.gif"><img src="./images/Search-Users-GitHub-REST-API-gif.gif" title="Search-Users-GitHub-REST-API-gif"></a>
