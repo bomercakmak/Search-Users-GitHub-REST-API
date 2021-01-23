@@ -1,4 +1,5 @@
 # Search GitHub Users
+[Try It Out Now!](https://bomercakmak.netlify.app/)
 Project used github api to search github users and their personal profile detail with followers, following and respositories.</br>
 
 # Sample Test Video
@@ -10,3 +11,5 @@ Project used github api to search github users and their personal profile detail
 - [Get User](https://api.github.com/users/bomercakmak)
 - [Repos](https://api.github.com/users/bomercakmak/repos?per_page=100)
 - [Followers](https://api.github.com/users/bomercakmak/followers)
+
+https://bomercakmak.netlify.app/
