@@ -12,4 +12,4 @@ Project used github api to search github users and their personal profile detail
 - [Repos](https://api.github.com/users/bomercakmak/repos?per_page=100)
 - [Followers](https://api.github.com/users/bomercakmak/followers)
 
-https://bomercakmak.netlify.app/
+Contributions and Issues are all welcome!

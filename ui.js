@@ -1,5 +1,5 @@
 class UI {
-    constructor(){
+    constructor() {
         this.profileDiv = document.getElementById("profile");
         this.repoDiv = document.getElementById("repos");
         this.lastUsers = document.getElementById("last-users");
@@ -7,11 +7,11 @@ class UI {
         this.cardBody = document.querySelector(".card-body");
     }
 
-    clearInput(){
+    clearInput() {
         this.inputField.value = "";
     }
 
-    showUserInfo(user){
+    showUserInfo(user) {
         this.profileDiv.innerHTML = `
         
         <div class="card card-body mb-3">
@@ -68,13 +68,13 @@ class UI {
 
         this.cardBody.appendChild(div);
 
-        setTimeout(()=>{
+        setTimeout(() => {
             div.remove();
-        },2000);
+        }, 2000);
 
     }
-    
-    showRepoInfo(repos){
+
+    showRepoInfo(repos) {
 
         this.repoDiv.innerHTML = "";
 
@@ -107,7 +107,7 @@ class UI {
         let users = Storage.getSearchedUsersFromStorage();
 
         if (users.indexOf(username) === -1) {
-    
+
             const li = document.createElement("li");
 
             li.className = "list-group-item";
@@ -115,11 +115,11 @@ class UI {
 
             this.lastUsers.appendChild(li);
 
-        }      
+        }
     }
 
-    clearAllSearchedFromUI(){
-        while(this.lastUsers.firstElementChild !== null){
+    clearAllSearchedFromUI() {
+        while (this.lastUsers.firstElementChild !== null) {
             this.lastUsers.removeChild(this.lastUsers.firstElementChild);
 
         }

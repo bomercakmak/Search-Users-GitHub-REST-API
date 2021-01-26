@@ -1,10 +1,10 @@
 class Storage {
 
-        // Get all user
-    static getSearchedUsersFromStorage(){
-        
+    // Get all user
+    static getSearchedUsersFromStorage() {
 
-        let users; 
+
+        let users;
 
         if (localStorage.getItem("searched") === null) {
             users = [];
@@ -16,9 +16,9 @@ class Storage {
         return users;
 
     }
-         // Add User
-    static addSearchedUserToStorage(username){
-        
+    // Add User
+    static addSearchedUserToStorage(username) {
+
         let users = this.getSearchedUsersFromStorage();
 
         // IndexOf 
@@ -26,13 +26,13 @@ class Storage {
         if (users.indexOf(username) === -1) {
             users.push(username);
         }
-        localStorage.setItem("searched",JSON.stringify(users));
+        localStorage.setItem("searched", JSON.stringify(users));
 
 
     }
-        // Delete all users
-    static clearAllSearchedUsersFromStorage(){
-    
+    // Delete all users
+    static clearAllSearchedUsersFromStorage() {
+
         localStorage.removeItem("searched");
     }
 
