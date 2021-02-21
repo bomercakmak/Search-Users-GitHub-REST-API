@@ -2,7 +2,8 @@
 [Try It Out Now!](https://bomercakmak.netlify.app/)
 Project used github api to search github users and their personal profile detail with followers, following and respositories.</br>
 
-# Sample Test Video
+# Introduction video of my application
+[Try It Out Now!](https://bomercakmak.netlify.app/)
 
 <a href="https://bomercakmak.netlify.app/"><img src="./images/Search-Users-GitHub-REST-API-gif.gif" title="Search-Users-GitHub-REST-API-gif"></a>
 
